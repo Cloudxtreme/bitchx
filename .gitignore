@@ -1,0 +1,40 @@
+# Initial transition from CVS
+CVS/
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Ignore generated files
+Makefile
+config.cache
+config.log
+config.status
+include/defs.h
+source/Makefile
+source/epic5
+source/info.c.sh
+source/wserv4
+
